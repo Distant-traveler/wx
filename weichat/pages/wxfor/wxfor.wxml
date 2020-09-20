@@ -1,0 +1,7 @@
+<!--pages/wxfor/wxfor.wxml-->
+<text>pages/wxfor/wxfor.wxml</text>
+<view class="container">
+  <view wx:for="{{users}}" class="content">
+    <text>{{index}}-{{item.name}}-{{item.age}}</text>
+  </view>
+</view>

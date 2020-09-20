@@ -1,0 +1,6 @@
+/* pages/databind/databind.wxss */
+.content{
+  margin: 20rpx;
+  padding:20rpx;
+  border:1px solid #eee;
+}

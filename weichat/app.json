@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/wxfor/wxfor",
+    "pages/databind/databind",
+    "pages/index/index",
+    "pages/logs/logs"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "快活吧~",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#dddddd",
+    "backgroundColor": "#ffffff",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "white",
+    "list": [
+      {
+        "iconPath": "images/achievement.png",
+        "selectedIconPath": "",
+        "pagePath": "pages/index/index",
+        "text": "成就",
+        "textsize": "70sp"
+      },
+      {
+        "text": "开始游戏",
+        "pagePath": "pages/index/index",
+        "selectedIconPath": "",
+        "iconPath": "images/start_game.png"
+      },
+      {
+        "iconPath": "images/progress.png",
+        "selectedIconPath": "",
+        "pagePath": "pages/logs/logs",
+        "text": "进度"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

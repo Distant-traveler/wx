@@ -1,0 +1,51 @@
+/* pages/calc/calc.wxss */
+.content{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  box-sizing: border-box;
+  padding-top:10rpx;
+}
+.btnGroup{
+  display: flex;
+  flex-direction: row;
+}
+
+.screen{
+  background-color: #ffffff;
+  text-align: right;
+  width:650rpx;
+  height: 150rpx;
+  line-height: 150rpx;
+  padding: 0 20rpx;
+  margin: 30rpx;
+  border: 1px solid #ddd;
+  border-radius:3rpx;
+}
+.item{
+  width:160rpx;
+  min-height: 150rpx;
+  margin: 10rpx;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.3);
+  border-radius: 5px;
+  border:0.5px solid black;
+  text-align: center;
+  line-height: 150rpx;
+}
+.pink{
+  background-color:#FFC1C1;
+  color: #fef4e9;
+  border:solid 1px #CD9B9B;
+}
+.rose{
+  background-color:#FFC0CB;
+  color: #fef4e9;
+  border:solid 1px #DB7093;
+}
+.button-hover-num{
+  background-color: #0094cc;opacity:0.7;
+}
+.other-button-hover{
+  background-color: red;
+}
